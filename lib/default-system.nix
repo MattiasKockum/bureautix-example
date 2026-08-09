@@ -4,7 +4,7 @@
 
 # Default system closure
 # This is the system that gets installed by default automatically without any user customization.
-{ securix, defaultEdition }:
+{ securix, defaultEdition, ... }:
 
 securix.lib.mkTerminal {
   name = "default";
